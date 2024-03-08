@@ -89,3 +89,14 @@ const assign1: Assignment = {
     grade: 0
 }
 console.log(updateAssignment(assign1, {grade: 97}));
+
+// generic
+
+function identity<T>(arg: T): T {
+    return arg;
+}
+
+// Usage
+let result1 = identity<number>(42);  // Type of result1 is number
+let result2 = identity<string>('hello');  // Type of result2 is string
+
