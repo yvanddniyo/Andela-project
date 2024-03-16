@@ -26,3 +26,8 @@ const assign1 = {
     grade: 0
 };
 console.log(updateAssignment(assign1, { grade: 97 }));
+function identity(arg) {
+    return arg;
+}
+let result1 = identity(42);
+let result2 = identity('hello');
