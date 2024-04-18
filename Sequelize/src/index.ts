@@ -13,3 +13,4 @@ db.sequelize.sync().then(() => {
         console.log(`app is running at port ${port}`);
     });
 });
+// adding commit
